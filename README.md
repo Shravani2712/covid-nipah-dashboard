@@ -1,131 +1,144 @@
-# 🦠 COVID-19 vs Nipah Virus Comparative Dashboard
+🦠 COVID-19 vs Nipah Virus Comparative Dashboard
 
-An interactive **Streamlit dashboard** that compares the spread, impact, and fatality rates of **COVID-19** and **Nipah Virus** using real-world datasets.
-The app provides KPIs, charts, maps, and filters for better data-driven insights.
+An interactive Streamlit-based data analytics dashboard that compares the spread, impact, and fatality of COVID-19 and Nipah Virus using real-world datasets.
+This project combines Python, SQL, and data visualization to deliver meaningful public-health insights.
 
----
+🚀 Live Demo
 
-## 🚀 Live Demo
+👉 (Add your Streamlit Cloud URL after deployment)
 
-👉 *Add your Streamlit Cloud link here after deployment*
+https://covid-nipah-dashboard-hu2tum4cahchxbjvdzyqke.streamlit.app/
 
-```
-https://your-app-name.streamlit.app
-```
+📊 Dashboard Features
+📌 Key Performance Indicators (KPIs)
 
----
+COVID-19 Total Cases (auto formatted in K / M)
 
-## 📊 Features
+COVID-19 Total Deaths (auto formatted in K / M)
 
-* 📈 **Key Performance Indicators (KPIs)**
+COVID-19 Fatality Rate (%)
 
-  * COVID-19 total cases (K / M format)
-  * COVID-19 total deaths (K / M format)
-  * COVID-19 fatality rate
-  * Average Nipah fatality rate
+Average Nipah Virus Fatality Rate (%)
 
-* 🔍 **Interactive Filters**
+🔍 Interactive Filters
 
-  * Year-wise COVID-19 analysis
-  * Country-wise Nipah outbreak filtering
+Year-wise COVID-19 analysis
 
-* 📉 **Visualizations**
+Country-wise Nipah outbreak filtering
 
-  * Line chart (fatality rate trend)
-  * Bar charts (case comparison)
-  * Pie chart (COVID case distribution)
-  * Heatmap (Nipah outbreaks by country & year)
-  * World map (COVID-19 global spread)
-  * Location map (Nipah outbreak regions)
+📈 Visual Analytics
 
-* 📄 **Data Tables**
+Line chart – COVID-19 fatality rate trend
 
-  * Nipah outbreak dataset
-  * Latest country-wise COVID-19 data
+Bar charts – COVID vs Nipah case comparison
 
----
+Pie chart – COVID-19 case distribution
 
-## 🛠️ Tech Stack
+Heatmap – Nipah outbreaks by country & year
 
-* **Python**
-* **Streamlit**
-* **Pandas**
-* **Matplotlib**
-* **Seaborn**
-* **Plotly**
+World map – COVID-19 global spread
 
----
+Location map – Nipah outbreak regions
 
-## 📂 Project Structure
+📄 Data Tables
 
-```
+Nipah outbreak dataset
+
+Latest country-wise COVID-19 statistics
+
+🛠️ Tech Stack
+
+Python
+
+Streamlit
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+Plotly
+
+MySQL (for data storage & SQL analysis)
+
+Jupyter Notebook
+
+📂 Project Structure
 covid-nipah-dashboard/
 │
-├── app.py               # Main Streamlit app
-├── requirements.txt     # Required Python libraries
-└── README.md            # Project documentation
-```
+├── app1.py                           # Streamlit dashboard
+├── COVID vs NIPAH.ipynb              # Jupyter Notebook analysis
+├── covid_nipah_analysis_sql_code.sql # SQL queries for comparison
+├── nipah_historical_outbreaks_updated.csv
+├── owid-covid-data.zip
+├── requirements.txt
+├── README.md
+└── covid vs nipah sample dashboard.pdf
 
----
+📁 Datasets Used
+🦠 COVID-19 Dataset
 
-## 📁 Datasets Used
+Source: Our World in Data (OWID)
 
-* **COVID-19 Dataset**
+Contains global case counts, deaths, testing, vaccination, and demographic indicators
 
-  * Source: Our World in Data (OWID)
-  * Uploaded by user via Streamlit interface
+🦠 Nipah Virus Dataset
 
-* **Nipah Virus Dataset**
+Historical outbreak data
 
-  * Historical outbreak data
-  * Uploaded by user via Streamlit interface
+Country, year, cases, deaths, and CFR
 
-> ⚠️ Datasets are not stored in the repository.
-> Users upload CSV files while running the app.
+▶️ How to Run Locally
+1️⃣ Clone the repository
+git clone https://github.com/Shravani2712/your-repo-name.git
+cd your-repo-name
 
----
-
-## ▶️ How to Run Locally
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/your-username/covid-nipah-dashboard.git
-cd covid-nipah-dashboard
-```
-
-2. **Install dependencies**
-
-```bash
+2️⃣ Install dependencies
 pip install -r requirements.txt
-```
 
-3. **Run the app**
+3️⃣ Run the Streamlit app
+streamlit run app1.py
 
-```bash
-streamlit run app.py
-```
+4️⃣ Upload datasets via sidebar (if required)
+🌐 Deployment
 
-4. Upload the required CSV files in the sidebar.
+Deployed using Streamlit Community Cloud
 
----
+Connected directly to GitHub repository
 
-## 🌐 Deployment
+Supports automatic redeployment on code updates
 
-This app is deployed using **Streamlit Community Cloud** and connected directly to a **GitHub repository**.
+📌 SQL Integration
 
----
+Database: covid_nipah_analysis
 
-## 🎯 Use Cases
+Tables:
 
-* Academic projects
-* Data analysis demonstrations
-* Public health comparison studies
-* Streamlit portfolio projects
+covid_data
 
----
+nipah_data
 
-## 👩‍💻 Author
+SQL queries used for:
 
-**Shravani Dhuri**
-*Data Analyst | SQL | Python | Excel | Tableau | Power BI*
+Total case comparison
+
+Fatality rate comparison
+
+Year-wise and country-wise analysis
+
+🎯 Use Cases
+
+Academic mini / major projects
+
+Data analytics portfolio
+
+Public health data comparison
+
+Streamlit dashboard demonstrations
+
+👩‍💻 Author
+
+Shravani Dhuri
+Aspiring Data Analyst
+Skills: Python | SQL | Excel | Tableau | Power BI | Streamlit
