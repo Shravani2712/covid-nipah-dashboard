@@ -129,5 +129,3 @@ This app is deployed using **Streamlit Community Cloud** and connected directly 
 
 **Shravani Dhuri**
 *Data Analyst | SQL | Python | Excel | Tableau | Power BI*
-
-Just tell me which style you want 😊
